@@ -1,11 +1,35 @@
-node_modules
+# Node modules
+node_modules/
 
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# Environment variables
+.env
+
+# IDE/editor files
+.idea/
+.vscode/
+
+# Build and dist directories
+/dist
+/build
+/tmp
+
+# NPM package lock files (optional, depending on your preference)
+package-lock.json
+yarn.lock
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Debugging files
+*.vscode
