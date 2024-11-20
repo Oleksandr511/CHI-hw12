@@ -8,8 +8,6 @@ import {
   Patch,
 } from "routing-controllers";
 import { ValidateArgs } from "../decorators/validator";
-// import { readUsers, User } from "../index1";
-import { promises as fs, write } from "fs";
 import { readUsers, writeUsers } from "../utils/fileUsing";
 import { User } from "../types/user";
 
